@@ -1,0 +1,1752 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    position: relative;
+    width: 1600px;
+    height: 2391px;
+    background: #FFFFFF;
+}
+
+header {
+    width: 1600px;
+    height: 80px;
+    background: #000000;
+    backdrop-filter: blur(2px);
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+
+.borderLogo {
+    position: absolute;
+    width: 82px;
+    height: 52px;
+    margin-left: 220px;
+    margin-top: 14px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+
+.borderLogo:hover {
+    color: #F9804B;
+    border: 1px solid #F9804B;
+}
+
+.logo {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 72.49px;
+    height: 44.91px;
+    margin-left: 4.75px;
+    margin-top: 3.55px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.logo:hover {
+    color: #F9804B;
+}
+
+.bamboo {
+    position: absolute;
+    width: 11.03px;
+    height: 20.98px;
+    margin-left: 10.0px;
+    margin-top: 22.64px;
+}
+
+.nav {
+    margin-left: 365px;
+    margin-top: 29px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 80px;
+    width: 472px;
+    list-style-type: none;
+}
+
+.nav-item {
+    margin-right: 58px;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    width: 32px;
+    height: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.nav-link:hover {
+    color: #F9804B;
+}
+
+.donate {
+    color: #F9804B
+}
+
+.designedBy {
+    margin-left: 438px;
+    margin-top: 29px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.designedBy:hover {
+    color: #F9804B;
+    cursor: pointer;
+}
+
+.main {
+    margin-top: -5px;
+}
+
+.pandaBg {
+    background-image: url(../../assets/fon/panda_bg.jpg);
+    height: 390px;
+    width: 1600px;
+}
+
+.theZoo {
+    position: absolute;
+    height: 1482px;
+    width: 1600px;
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+
+.textTheZoo {
+    margin-left: 220px;
+}
+
+.textH2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-top: 42px;
+}
+
+.textPar {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-top: 8px;
+    margin-left: 1px;
+    width: 1160px;
+}
+
+.textH3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    color: #FE9013;
+    margin-top: 46px;
+}
+
+.pickaFeed {
+    position: absolute;
+    height: 964px;
+    width: 1160px;
+    background: rgba(255, 255, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    margin-left: 220px;
+    margin-top: 60px;
+}
+
+.pickaFeedHederText {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #FE9013;
+    margin-top: 40px;
+    margin-left: 342px;
+}
+
+.pickaFeedHederPhar {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333B41;
+    margin-top: 20px;
+    margin-left: 92px;
+}
+
+.numberAndDiet {
+    margin-left: 307px;
+    margin-top: 165px;
+}
+
+.number4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 80%;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 59px;
+}
+
+.pandaDiet {
+    width: 159px;
+    height: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+    margin-top: 12px;
+    margin-left: 0px;
+}
+
+.twoVectors {
+    position: absolute;
+    background: #333B41;
+    margin-left: 474px;
+    margin-top: -60px;
+}
+
+.vectorOne {
+    width: 19px;
+    height: 1.98px;
+    position: absolute;
+    background: #333B41;
+    border-radius: 5px;
+    transform: rotate(45deg);
+}
+
+.vectorTwo {
+    width: 19px;
+    height: 1.98px;
+    position: absolute;
+    background: #333B41;
+    border-radius: 5px;
+    transform: rotate(135deg);
+}
+
+.pandaicone {
+    margin-left: 555px;
+    margin-top: -196px;
+}
+
+.textAmount {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+    margin-left: 96px;
+    margin-top: 48px;
+}
+
+.amount {
+    width: 976px;
+    height: 27px;
+    background: #404950;
+    border-radius: 2px;
+    margin-left: 92px;
+    margin-top: 17px;
+}
+
+.amountLine {
+    position: absolute;
+    width: 915px;
+    height: 2px;
+    background: #72828E;
+    margin-left: 31px;
+    margin-top: 12px;
+
+}
+
+.amountCircle {
+    position: absolute;
+    display: flex;
+    margin-left: 11px;
+    margin-top: -8px;
+}
+
+.amountCircleItem {
+    width: 10px;
+    height: 10px;
+    background: #FFEE2E;
+    border-radius: 50px;
+    margin-right: 120px;
+}
+
+/* .circleInter:hover {
+    border-radius: 50px;
+    border: 2px solid #FE9013;
+} */
+
+.circleInter {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 90px;
+    border-radius: 50px;
+    border: none;
+}
+
+.amountCircleItem:last-child {
+    margin-right: 0px;
+}
+
+.price {
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #333B41;
+    margin-left: 89px;
+    margin-top: 12px;
+}
+
+.priceHigh {
+    display: flex;
+    margin-left: 1px;
+    margin-top: 1px;
+    margin-right: 57px;
+}
+
+.dollor {
+    font-size: 23px;
+}
+
+.priceMedium {
+    display: flex;
+    margin-left: 1px;
+    margin-top: 1px;
+    margin-right: 72px;
+}
+
+.priceLow {
+    display: flex;
+    margin-left: 1px;
+    margin-top: 1px;
+    margin-right: 88px;
+}
+
+.priceLast {
+    display: flex;
+    margin-right: 116px;
+    margin-left: -2px;
+    margin-top: 1px;
+}
+
+.inputNumber {
+    width: 268px;
+    height: 54px;
+    border: 1px solid #929699;
+    border-radius: 2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #929699;
+    background: transparent;
+    margin-left: 446px;
+    margin-top: 48px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.dollarInput {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 140%;
+    color: #929699;
+    margin-left: 693px;
+    margin-top: -42px;
+}
+
+.radioInput {
+    margin-left: 469px;
+    margin-top: 36px;
+}
+
+.inputamount {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: black;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    border: 1px solid #FE9013;
+    background: transparent;
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+
+.inputamount:checked {
+    background: #F9804B;
+}
+
+.radioText {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+    margin-right: 42px;
+}
+
+.feedAFriendNowButton {
+    height: 54px;
+    width: 298px;
+    border-radius: 25px;
+    border: none;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 436px;
+    margin-top: 29px;
+}
+
+.feedAFriendNowButton:hover {
+    background: #E47209;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.share {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+    margin-left: 432px;
+    margin-top: 30px;
+}
+
+.footer {
+    position: absolute;
+    height: 443px;
+    width: 1600px;
+    background: #111115;
+    margin-top: 1483px;
+}
+
+.borderLogofooter {
+    margin-top: 18px;
+}
+
+.logoFooter {
+    margin-top: -0.4px;
+    margin-left: 3.9px;
+}
+
+.bambooFooter {
+    margin-top: 19.9px;
+    margin-left: 9.4px;
+}
+
+.footerConteinerLogoInput {
+    display: grid;
+    grid-template-columns: 1013px 587px;
+    grid-template-rows: 137px;
+    margin-top: 23px;
+}
+
+.textSubscribeToOurNews {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-top: 18px;
+}
+
+.search {
+    width: 228px;
+    height: 42px;
+    background: #111115;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #BDBDBD;
+    border-radius: 2px;
+    margin-top: 13px;
+    border: 1px solid #FA6F32;
+}
+
+.submitButton {
+    background: #F1F3F2;
+    border: 1px solid #4B9200;
+    border-radius: 5px;
+    height: 42px;
+    width: 129px;
+    margin-left: 6px;
+}
+
+.submitText {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #4B9200;
+}
+
+.buttonDonateForVolunteers {
+    width: 298px;
+    height: 56px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+    margin-left: 219px;
+    border: none;
+}
+
+.buttonDonateForVolunteers:hover {
+    background: #E47209;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.textDonateForVolunteers {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.lastConteinerFooter {
+    display: grid;
+    grid-template-columns: 399px 509px 692px;
+    grid-template-rows: 137px;
+    margin-left: 220px;
+    margin-top: 44px;
+}
+
+.socialNet {
+    width: 110px;
+    height: 26px;
+}
+
+.Facebook,
+.Twitter,
+.Instagram,
+.YouTube {
+    display: flex;
+    text-decoration: none;
+}
+
+
+.footerCircle {
+    width: 26px;
+    height: 26px;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.footerCircleUp {
+    background: #4B9200;
+}
+
+.footerCircleFacebook {
+    margin-top: 4.4px;
+    margin-left: 9.1px;
+}
+
+.footerCircleTwitter {
+    margin-top: 5px;
+    margin-left: 5.3px;
+}
+
+.footerCircleInstagram {
+    margin-top: 4.2px;
+    margin-left: 5px;
+}
+
+.footerCircleYouTube {
+    margin-top: 5.5px;
+    margin-left: 4px;
+}
+
+.secialnettext {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-left: 12px;
+    margin-top: 3px;
+}
+
+.allTextUp {
+    color: #4B9200;
+}
+
+.facebookText {
+    margin-top: 3.9px;
+}
+
+.twitterText {
+    margin-top: 2px;
+}
+
+.instagramText {
+    margin-top: 2px;
+}
+
+.footerNav {
+    margin-left: 0px;
+    margin-top: 110px;
+}
+
+.footerNav-list {
+    height: 67px;
+}
+
+.designedByAlisa {
+    width: 230px;
+    height: 21px;
+    margin-top: 81px;
+    margin-left: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.Alisa {
+    margin-bottom: 10px
+}
+
+.buttonJs {
+    background: #4B9200;
+}
+
+.buttonJs:hover {
+    background: #4B9200;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+/* ds none */
+
+.menu-btn {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+/* @media screen and (max-width: 1000px) { */
+
+@media screen and (max-width: 1000px) {
+
+    html,
+    header,
+    .pandaBg,
+    .pickAndFeedAFriend,
+    .theZoo,
+    .footer {
+        width: 1000px;
+    }
+
+    html {
+        height: 2245px;
+    }
+
+    header {
+        height: 80px;
+    }
+
+    .borderLogo {
+        margin-left: 30px;
+    }
+
+    .nav {
+        margin-left: 175px;
+    }
+
+    .nav-item {
+        margin-right: 48px;
+    }
+
+    .designedBy {
+        margin-left: 218px;
+    }
+
+    .pandaBg {
+        background-image: url(../../assets/fon/panda_bgsmoll.jpg);
+        height: 390px;
+        width: 1000px;
+        position: absolute;
+        margin-top: 5px;
+    }
+
+    .theZoo {
+        position: absolute;
+        margin-top: 395px;
+        height: 1482px;
+        background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    }
+
+    .textTheZoo {
+        margin-left: 30px;
+        margin-top: -1px;
+    }
+
+    .textH2 {
+        width: 765px;
+    }
+
+    .textPar {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+        margin-top: 29px;
+        margin-left: 1px;
+        width: 940px;
+        height: 94px;
+    }
+
+    .textH3 {
+        margin-top: 41px;
+    }
+
+    .pickaFeed {
+        position: absolute;
+        height: 918px;
+        width: 940px;
+        background: rgba(255, 255, 255, 0.52);
+        backdrop-filter: blur(2px);
+        border-radius: 20px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+
+    .pickaFeedHederText {
+        margin-top: 21px;
+        margin-left: 231px;
+    }
+
+    .pickaFeedHederPhar {
+        margin-top: 12px;
+        margin-left: 47px;
+    }
+
+    .numberAndDiet {
+        margin-left: 196px;
+        margin-top: 164px;
+    }
+
+    .twoVectors {
+        margin-left: 363px;
+        margin-top: -60px;
+    }
+
+    .pandaicone {
+        margin-left: 444px;
+        margin-top: -196px;
+    }
+
+    .textAmount {
+        margin-left: 65px;
+    }
+
+    .amount {
+        width: 809px;
+        height: 27px;
+        margin-left: 66px;
+        margin-top: 15px;
+    }
+
+    .amountLine {
+        width: 784px;
+        margin-left: 11px;
+    }
+
+    .amountCircle {
+        margin-left: -5px;
+    }
+
+    .price {
+        margin-left: 64px;
+        margin-top: 11px;
+    }
+
+    .inputNumber {
+        margin-left: 336px;
+        margin-top: 50px;
+        height: 55px;
+    }
+
+    .dollarInput {
+        margin-left: 583px;
+        margin-top: -41px;
+    }
+
+    .circleInter1 {
+        display: none;
+    }
+
+    .priceHigh1 {
+        display: none;
+    }
+
+    .radioInput {
+        margin-left: 358px;
+        margin-top: 35px;
+    }
+
+    .feedAFriendNowButton {
+        margin-left: 325px;
+        margin-top: 29px;
+    }
+
+    .share {
+        margin-left: 321px;
+    }
+
+    .footer {
+        position: absolute;
+        height: 443px;
+        background: #111115;
+        margin-top: 1730px;
+    }
+
+    .footerConteinerLogoInput {
+        grid-template-columns: 557px 411px;
+        margin-left: 14px;
+    }
+
+    .borderLogofooter {
+        margin-top: 19px;
+        margin-left: 17px;
+    }
+
+    .buttonDonateForVolunteers {
+        margin-left: 30px;
+    }
+
+    .lastConteinerFooter {
+        margin-left: 31px;
+        grid-template-columns: 410px 275px 268px;
+        margin-top: 46px;
+    }
+
+    .socialNet {
+        margin-top: -1px;
+    }
+
+    .footerNav {
+        margin-left: -107px;
+        margin-top: 110px;
+    }
+
+    .designedByAlisa {
+        margin-top: 80px;
+        margin-left: 24px;
+        line-height: 126%;
+    }
+
+}
+
+/* @media screen and (max-width: 640px) { */
+
+@media screen and (max-width: 640px) {
+
+    html,
+    header,
+    .pandaBg,
+    .pickAndFeedAFriend,
+    .theZoo,
+    .footer {
+        width: 640px;
+    }
+
+    header {
+        height: 39px;
+        position: fixed;
+        margin-top: -38px;
+    }
+
+    html {
+        height: 1984px;
+    }
+
+
+    .borderLogo {
+        height: 29.0266056060791px;
+        width: 46.855072021484375px;
+        margin-left: 3px;
+        margin-top: 5px;
+        border: none;
+        height: 41.599998474121094px;
+    }
+
+    .logo {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12.2899px;
+        line-height: 120%;
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .bamboo {
+        position: absolute;
+        width: 8.03px;
+        height: 12.98px;
+        margin-left: 21px;
+        margin-top: 16.64px;
+    }
+
+
+
+    .nav {
+        display: none;
+    }
+
+    .designedBy {
+        display: none;
+    }
+
+    .menu {
+        display: inline;
+        position: absolute;
+        margin-top: -340px;
+        width: 640px;
+        height: 329px;
+
+        background: #FFFFFF;
+    }
+
+    .menu.active {
+        margin-top: 0px;
+        transition: 1s;
+    }
+
+    .popUpallScreen.active {
+        margin-left: -632px;
+        height: 3581px;
+        width: 640px;
+        background-color: rgba(0, 0, 0, 0.55);
+    }
+
+    .menunlnk {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #333B41;
+        text-decoration: none;
+    }
+
+    .bgList {
+        margin-top: 82px;
+        margin-left: 10px;
+    }
+
+    .bgItem {
+        margin-bottom: 15px;
+    }
+
+    .bgItem:last-child {
+        margin-bottom: 0px;
+    }
+
+    .menunlnk:hover {
+        color: #E47209;
+    }
+
+    .borderLogoBurger {
+        width: 65.6px;
+        height: 41.6px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15.2116px;
+        line-height: 120%;
+        text-align: center;
+        border: 0.950725px solid #FE9013;
+        border-radius: 2px;
+        color: #FE9013;
+    }
+
+    .bambooMenu {
+        margin-left: 14px;
+        margin-top: 22.64px;
+    }
+
+    .borderLogoAll {
+        margin-left: 5px;
+        margin-top: 7.5px;
+    }
+
+    .menu-btn {
+        display: flex;
+        flex-wrap: wrap;
+        width: 30px;
+        height: 12px;
+        margin-left: 602px;
+        margin-top: 16px;
+    }
+
+    .menu-btn:hover {
+        cursor: pointer;
+    }
+
+    .burger-menu_lines {
+        width: 18px;
+        height: 2px;
+        background: #FFFFFF;
+        border-radius: 2px;
+        margin-bottom: 2px;
+    }
+
+    .burger-menu_lines:hover {
+        background: #FE9013;
+    }
+
+    .off{
+        margin-left: 550px;
+        margin-top: -271px;
+        border: 1px solid red;
+        width: 50px;
+    height: 50px;
+    position: absolute;
+    }
+
+    .offVector {
+        background: red;
+        width: 42px;
+        height: 1.98px;
+        position: absolute;
+        border-radius: 5px;
+        transform: rotate(45deg);
+        margin-top: 23px;
+        margin-left: 3px;
+    }
+
+    .offVectorOnTwo {
+        background: red;
+        width: 42px;
+        height: 1.98px;
+        position: absolute;
+        border-radius: 5px;
+        transform: rotate(135deg);
+        margin-top: 23px;
+        margin-left: 3px;
+    }
+
+
+    .pandaBg {
+        background-image: url(../../assets/fon/tabletpanda.jpg);
+        height: 335px;
+        margin-top: 38px;
+        position: static;
+    }
+
+    .theZoo {
+        margin-top: -43px;
+        position: static;
+        padding-top: 1px;
+    }
+
+    .textTheZoo {
+        margin-left: 20px;
+        margin-top: -12px;
+        margin-right: 20px;
+    }
+
+    .textH2 {
+        width: 615px;
+        line-height: 125%;
+        font-size: 24px;
+    }
+
+    .textPar {
+        margin-top: 19px;
+        margin-left: 0px;
+        width: 600px;
+        line-height: 137%;
+    }
+
+    .textH3 {
+        margin-top: 91px;
+    }
+
+    .pickaFeed {
+        position: absolute;
+        height: 918px;
+        width: 600px;
+        background: rgba(255, 255, 255, 0.52);
+        backdrop-filter: blur(2px);
+        border-radius: 20px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .pickaFeedHederText {
+        margin-top: 29px;
+        margin-left: 69px;
+    }
+
+    .pickaFeedHederPhar {
+        margin-top: 22px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .numberAndDiet {
+        margin-left: 27px;
+        margin-top: 153px;
+    }
+
+    .twoVectors {
+        margin-left: 194px;
+        margin-top: -60px;
+    }
+
+    .pandaicone {
+        margin-left: 275px;
+        margin-top: -196px;
+    }
+
+    .textAmount {
+        margin-left: 10px;
+        margin-top: 41px;
+    }
+
+    .amount {
+        width: 600px;
+        height: 27px;
+        margin-left: 0px;
+        margin-top: 7px;
+    }
+
+    .amountLine {
+        width: 520px;
+        margin-left: 41px;
+    }
+
+    .circleInter1,
+    .circleInter2,
+    .circleInter3,
+    .priceHigh2,
+    .priceHigh3 {
+        display: none;
+    }
+
+    .amountCircle {
+        display: flex;
+        margin-left: 20px;
+        margin-top: -6px;
+        width: 600px;
+    }
+
+    .circleInter4 {
+        margin-left: 0px;
+    }
+
+    .circleInter8 {
+        margin-right: 0;
+    }
+
+    .price {
+        margin-left: 15px;
+        margin-top: 11px;
+    }
+
+    .inputNumber {
+        margin-left: 210px;
+        margin-top: 50px;
+        height: 42px;
+        width: 180px;
+    }
+
+    .dollarInput {
+        margin-left: 369px;
+        margin-top: -35px;
+    }
+
+    .radioInput {
+        margin-left: 187px;
+        margin-top: 34px;
+    }
+
+    .feedAFriendNowButton {
+        margin-left: 154px;
+        margin-top: 28px;
+    }
+
+    .share {
+        margin-left: 150px;
+    }
+
+
+    .footer {
+        margin-top: 0;
+        height: 282px;
+    }
+
+    .borderLogofooter {
+        position: absolute;
+        width: 82px;
+        height: 53px;
+        margin-left: 21px;
+        margin-top: 13px;
+        border: 1px solid #FFFFFF;
+        border-radius: 2px;
+    }
+
+    .logoFooter {
+        position: absolute;
+        width: 72.49px;
+        height: 44.91px;
+        margin-left: 3.75px;
+        margin-top: 0.55px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19.0145px;
+        line-height: 120%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .bambooFooter {
+        position: absolute;
+        width: 11.03px;
+        height: 20.98px;
+        margin-left: 10px;
+        margin-top: 18.64px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .submitButton {
+        display: none;
+    }
+
+    .textSubscribeToOurNews {
+        display: none;
+    }
+
+    .footerConteinerLogoInput {
+        display: inline;
+    }
+
+    .buttonDonateForVolunteers {
+        margin-left: 20px;
+        margin-top: 96px;
+    }
+
+    .secialnettext {
+        display: none;
+    }
+
+    .lastConteinerFooter {
+        display: inline;
+    }
+
+    .socialNet {
+        margin-top: -139px;
+        margin-left: 594px;
+        width: 44px;
+    }
+
+    .footerCircle {
+        margin-bottom: 20px;
+    }
+
+    .footerNav {
+        display: inline;
+    }
+
+    .futernav {
+        margin-top: 209px;
+        margin-left: 21px;
+    }
+
+    .nav-item {
+        margin-right: 36px;
+    }
+
+    .nav-list {
+        height: 0px;
+    }
+
+    .designedByAlisa {
+        margin-top: -29px;
+        margin-left: 391px;
+    }
+
+}
+
+/* @media screen and (max-width: 320px) { */
+
+@media screen and (max-width: 320px) {
+
+    html,
+    header,
+    .pandaBg,
+    .pickAndFeedAFriend,
+    .theZoo,
+    .footer {
+        width: 320px;
+    }
+
+    html {
+        height: 1660px;
+    }
+
+    header {
+        margin-top: -34px;
+        height: 34px;
+    }
+
+    main {
+        margin-top: 0px;
+    }
+
+    .borderLogo {
+        margin-left: -7px;
+        margin-top: 0.8px;
+    }
+
+    .menu-btn {
+        margin-left: 292px;
+        margin-top: 12px;
+        height: 12px;
+    }
+
+    .menu {
+        width: 320px;
+        height: 329px;
+    }
+
+    .popUpallScreen.active {
+        height: 4271px;
+        width: 320px;
+        margin-left: -320px;
+    }
+
+    .borderLogoAll {
+        margin-left: 5px;
+        margin-top: 7.5px;
+    }
+
+    .off {
+        margin-left: 247px;
+        margin-top: -279px;
+    }
+
+
+    .pandaBg {
+        background-image: url(../../assets/fon/panda_bg320.jpg);
+        height: 187px;
+    }
+
+    .theZoo {
+        height: 1150px;
+    }
+
+    .textTheZoo {
+        margin-left: 10px;
+    }
+
+    .textH2 {
+        width: 310px;
+    }
+
+    .textPar {
+        width: 300px;
+    }
+
+    .textH3 {
+        margin-top: 241px;
+        font-size: 24px;
+    }
+
+    .pickaFeed {
+        height: 591px;
+        width: 300px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .pickaFeedHederText {
+        margin-top: 21px;
+        margin-left: 35px;
+        font-size: 24px;
+    }
+
+    .pickaFeedHederPhar {
+        margin-top: 11px;
+        font-size: 16px;
+        line-height: 130%;
+    }
+
+    .numberAndDiet {
+        margin-left: -26px;
+        margin-top: 69px;
+    }
+
+    .pandaDiet {
+        font-size: 9px;
+        margin-left: 26px;
+        margin-top: 8px;
+    }
+
+    .number4 {
+        font-size: 40px;
+    }
+
+    .twoVectors {
+        margin-left: 90px;
+        margin-top: -46px;
+    }
+
+    .twoVectors {
+        margin-left: 94px;
+        margin-top: -44px;
+    }
+
+    .vectorOne {
+        width: 11px;
+    }
+
+    .vectorTwo {
+        width: 10px;
+    }
+
+    .pandaicone {
+        height: 138.918907px;
+        width: 161.404938px;
+        margin-left: 139px;
+        margin-top: -120px;
+    }
+
+    .textAmount {
+        margin-left: 0px;
+        margin-top: 4px;
+    }
+
+    .amount {
+        width: 300px;
+        height: 13.5px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+
+    .amount {
+        width: 300px;
+        height: 13.5px;
+        margin-left: 0px;
+        margin-top: 7px;
+    }
+
+    .amountLine {
+        height: 1px;
+        width: 262px;
+        margin-left: 41px;
+    }
+
+    .amountLine {
+        height: 1px;
+        width: 262px;
+        margin-left: 20px;
+        margin-top: 6px;
+    }
+
+    .amountCircle {
+        display: flex;
+        margin-left: 17.5px;
+        margin-top: -12px;
+        width: 265px;
+        align-content: space-between;
+    }
+
+    .amountCircleItem {
+        width: 5px;
+        height: 5px;
+        background: #FFEE2E;
+        border-radius: 50px;
+        margin-right: 120px;
+    }
+
+    .circleInter {
+        margin-right: 60px;
+    }
+
+    .price {
+        margin-left: 7px;
+        margin-top: 7px;
+        font-size: 12px;
+    }
+
+    .dollor {
+        font-size: 12px;
+    }
+
+    .priceMedium {
+        margin-right: 37px;
+    }
+
+    .priceLast {
+        margin-left: -44px;
+    }
+
+    .inputNumber {
+        margin-left: 61px;
+        margin-top: 25px;
+    }
+
+    .dollarInput {
+        margin-left: 220px;
+    }
+
+    .radioInput {
+        margin-left: 36px;
+        margin-top: 29px;
+    }
+
+    .feedAFriendNowButton {
+        margin-left: 3px;
+        margin-top: 25px;
+        width: 296px;
+    }
+
+    .share {
+        margin-left: 0px;
+        width: 301px;
+    }
+
+    .footer {
+        height: 334px;
+    }
+
+    .borderLogofooter {
+        border: none;
+
+    }
+
+    .logoFooter {
+        width: 163.49px;
+        margin-left: 85.75px;
+        margin-top: 20.55px;
+    }
+
+
+    .bambooFooter {
+        margin-left: 175px;
+        margin-top: 16.64px;
+    }
+
+    .socialNet {
+        display: flex;
+        margin-top: -110px;
+        margin-left: 63px;
+        margin-right: 32px;
+        width: 194px;
+        justify-content: space-between;
+    }
+
+    .buttonDonateForVolunteers {
+        margin-left: 9px;
+        margin-top: 128px;
+    }
+
+    .designedByAlisa {
+        margin-top: -80px;
+        margin-left: 95px;
+        position: absolute;
+        display: inline;
+        font-size: 15px;
+        line-height: 134%;
+        width: 220px;
+    }
+
+    .futernav {
+        margin-top: 192px;
+        margin-left: 21px;
+    }
+
+    .nav-item {
+        margin-right: 30px;
+    }
+
+    .nav-list {
+        width: 295px
+    }
+
+
+}
